@@ -47,7 +47,7 @@
     cond_layers {
       compatible = "zmk,conditional-layers";
       tri {
-        if-layers = <NUM_L FNC_L>;
+        if-layers = <FNC_L NUM_L>;
         then-layer = <NAV_L>;
       };
     };
@@ -84,9 +84,9 @@
 #ifdef TBLE_DUAL_2U
  &trans     &trans     &trans     &trans              &trans                        &trans                    &kp MINUS   &kp PLUS     &kp LBKT    &kp RBKT
 #elif defined(TBLE_MIT)
- &trans     &trans     &trans     &trans       &trans                &trans                    &kp N0         &kp MINUS   &kp PLUS     &kp LBKT    &kp RBKT
+ &trans     &trans     &trans     &trans       &trans                &trans                    &trans         &kp MINUS   &kp PLUS     &kp LBKT    &kp RBKT
 #else
- &trans     &trans     &trans     &trans       &trans          &trans         &trans           &kp N0         &kp MINUS   &kp PLUS     &kp LBKT    &kp RBKT
+ &trans     &trans     &trans     &trans       &trans          &trans         &trans           &trans         &kp MINUS   &kp PLUS     &kp LBKT    &kp RBKT
 #endif
             >;
         };
