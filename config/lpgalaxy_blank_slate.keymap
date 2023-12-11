@@ -42,8 +42,6 @@
     tap_dances {
     };
 
-// Conditional layer only when we have less thumb keys
-#ifdef TBLE_DUAL_2U
     cond_layers {
       compatible = "zmk,conditional-layers";
       tri {
@@ -51,7 +49,6 @@
         then-layer = <NAV_L>;
       };
     };
-#endif
 
     keymap {
         compatible = "zmk,keymap";
