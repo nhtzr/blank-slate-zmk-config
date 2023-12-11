@@ -66,11 +66,11 @@
 #else
 #endif
 #ifdef TBLE_DUAL_2U
- &kp LATL   &kp LGUI    &kp LALT   &mo NUM_L         &shifty                        &kp SPACE                &mo FNC_L   &kp LALT   &kp RGUI      &kp RSHIFT
+ &kp LATL   &kp LGUI    &none   &mo NUM_L         &shifty                        &kp SPACE                &mo FNC_L   &kp LALT   &kp RGUI      &kp RSHIFT
 #elif defined(TBLE_MIT)
- &kp LALT   &kp LGUI    &mo SYM_L  &kp LALT    &mo NUM_L            &kp SPACE                 &mo FNC_L      &kp LEFT    &kp DOWN   &kp UP        &kp RIGHT
+ &kp LALT   &kp LGUI    &none   &none       &mo NUM_L            &kp SPACE                 &mo FNC_L      &kp LEFT    &kp DOWN   &kp UP        &kp RIGHT
 #else                               
- &kp LALT   &kp LGUI    &mo SYM_L  &kp LALT    &mo NUM_L      &kp SPACE      &kp RET          &mo FNC_L      &kp LEFT    &kp DOWN   &kp UP        &kp RIGHT
+ &kp LALT   &kp LGUI    &none   &none       &mo NUM_L      &kp SPACE      &kp RET          &mo FNC_L      &kp LEFT    &kp DOWN   &kp UP        &kp RIGHT
 #endif
             >;
         };
