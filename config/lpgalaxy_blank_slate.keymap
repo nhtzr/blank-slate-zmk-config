@@ -48,7 +48,7 @@
     };
 
 
-    &msc {
+    msc {
         time-to-max-speed-ms = <150>;
     };
 
